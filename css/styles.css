@@ -45,8 +45,7 @@ section {
 
 img {
     display: block;
-    max-width: 160px;
-    border-radius: 50%;
+    max-width: 100%;
 }
 
 h1,
@@ -123,9 +122,10 @@ a:focus {
 
 .profile-img {
     width: 300px;
+    height: 300px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .resume-header img {
